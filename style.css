@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 145px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2 a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #16a7b4;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+}
+
+.col-2 a:hover {
+    background: #106e77;
+}
+
+p {
+    color: #555;
+}
+
+.header-section {
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+}
+
+/* Style de la section catégories */
+.categorie {
+    margin: 100px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+}
+
+/* Section des meilleurs produits */
+.col-4 {
+    flex-basis: 25%;
+    min-width: 200px;
+    margin: auto;
+    padding: 15px;
+    transition: transform 0.4s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4:hover {
+    transform: translateY(-10px);
+}
+
+.rating .fa {
+    color: gold;
+}
+
+/* Section des derniers produits */
+.latest-products,
+.other-products {
+    margin: 100px 0;
+}
+
+.latest-products h2,
+.other-products h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+}
+footer {
+    background: #f4f4f4;
+    padding: 20px 0;
+    color: #555;
+}
+
+footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col-3 {
+    flex-basis: 22%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+footer .social a {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    text-decoration: none;
+}
+
+footer .social a i {
+    margin-right: 10px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer form button {
+    padding: 10px;
+    border: none;
+    background-color: #16a7b4;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #106e77;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
